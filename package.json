@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@cloudflare/next-on-pages": "^1.13.5",
     "@corbado/node-sdk": "^3.0.2",
     "@corbado/react": "^2.17.0",
     "@types/node": "20.11.24",

@@ -47,7 +47,8 @@ export default function Form() {
     useEffect(() => {
         const myFunction = () => {
             if (autoreset){
-            document.getElementById('msgiframe').contentWindow.location.reload();
+                const iframe = document.getElementById('msgiframe') as HTMLIFrameElement;
+                iframe.contentWindow?.location.reload();
             }
             // Your logic here
         };

@@ -6,6 +6,9 @@ import getNodeSDK from '@/app/_utils/nodeSdk';
 import { redirect } from 'next/navigation';
 import { Toaster, toast } from 'react-hot-toast';
 
+export const runtime = 'edge';
+
+
 const MessagesPage = async () => {
     // Check authorization
     const cookieStore = cookies();

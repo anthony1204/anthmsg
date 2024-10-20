@@ -5,6 +5,8 @@ import fs from 'fs';
 import path from 'path';
 import getNodeSDK from '@/app/_utils/nodeSdk';
 
+export const runtime = 'edge';
+
 export async function POST(req: Request) {
     // Start checking tokens
     const cookieStore = cookies();
